@@ -1,0 +1,61 @@
+@charset "gb2312";
+/* CSS Document */
+body{font-family:"ËÎÌו";}
+.div_body{ width:760px; margin:0 auto;}
+.head{ margin-top:10px;}
+.logo{ float:left; display:inline;}
+.head strong{ float: right; display:inline; width:571px; height:32px; line-height:32px; color:#fff; font-size:14px; background:#36c; padding-left:10px; margin-top:5px;}
+.zc_tj{ font-size:24px; font-family:Arial, Helvetica, sans-serif; font-weight:bold; margin:28px 0 0 68px;}
+.red{ color:#f00;}
+.emails{ width:520px; font-size:14px; color:#090;font-family:Arial, Helvetica, sans-serif; line-height:25px; margin:28px 0 0 118px;}
+.emails b{ color:#000;}
+.btn_1{ background: url(http://icon.zol.com.cn/service/images1/btn_1.jpg) no-repeat; display:block; width:201px; height:36px; margin:15px 0 0 118px;}
+.no_look{ font-size:14px; display:block; margin:60px 0 0 70px;}
+.jh_ul{ margin:10px 0 0 105px ;}
+.jh_ul li{ font-size:14px; line-height:25px; background: url(http://icon.zol.com.cn/service/images1/li_bg.gif) no-repeat -9px -36px; padding-left:15px;}
+.jh_ul li a{ color:#00f;}
+.foot{ background:#E3E3E3; height:25px; color:#6C6CC6; line-height:25px; text-align:center; margin-top:50px;}
+
+.btn_2{background: url(http://icon.zol.com.cn/service/images1/btn_2.jpg) no-repeat; display:block; width:201px; height:36px; margin:15px 0 0 118px;}
+.zh_m{ font-size:16px; font-weight:bold; margin:28px 0 0 68px; background:url(http://icon.zol.com.cn/service/images1/li_bg.gif) no-repeat; padding-left:25px; height:23px; line-height:23px;}
+.xg_m{ width:520px; font-size:14px; color:#090;font-family:Arial, Helvetica, sans-serif; line-height:25px; margin:0 0 0 118px;}
+
+.zx_em{ font-size:14px; margin:25px 0 0 118px;}
+.text_1{ width:176px; height:22px; margin:10px 0 0 118px; line-height:22px;}
+.butt_1{ width:104px; height:33px; font-size:14px; margin:10px 0 0 118px; margin-bottom:70px;}
+
+.emails_2{ width:494px; height:43px; border:1px solid #FF9900; background:#FFF7D6; font-size:14px; text-align:center; line-height:43px; margin:23px 0 10px 118px;}
+
+.xg_y{font-size:16px; font-weight:bold; margin:28px 0 0 68px; background:url(http://icon.zol.com.cn/service/images1/li_bg.gif) no-repeat -4px -71px; padding-left:25px; height:23px; line-height:23px;}
+.emails_3{width:418px; font-size:14px; color:#090;font-family:Arial, Helvetica, sans-serif; line-height:25px; margin:8px 0 0 118px;}
+.zx_em2{font-size:14px; margin:15px 0 0 118px;}
+
+.zc_tj2{font-size:24px; font-family:Arial, Helvetica, sans-serif; font-weight:bold; margin-bottom:18px;}
+.cg_p{ font-size:14px; line-height:22px; text-align:center;}
+.cg_box{ margin:0 auto; width:400px; padding:45px 0  200px 0;}
+
+.welcom{ font-size:16px; margin:33px 0 0 90px; display:block;}
+.text_2{ width:176px; height:22px;  line-height:22px;}
+.zc_ul{ margin:20px 0 0 70px;}
+.zc_ul li{ font-size:14px; height:45px; }
+.zc_ul li .pass {margin-top:4px;}
+.zc_ul li em{ float:left; display:inline; width:110px; text-align:right;  line-height:20px; padding-top:2px;}
+.zc_ul li select{ height:22px;}
+.rad_1{ margin:0 3px 0 0;}
+.yz_bg{ margin:0 0 0 107px; float:left; display:inline;}
+.zc_ul li a{ font-size:12px; margin:25px 0 0 15px; float:left; display:inline;}
+.zc_ul li.last_a{ margin-top:10px;}
+.ljzc{ background:url(http://icon.zol.com.cn/service/images1/btn_3.jpg) no-repeat; display: block; width:121px; height:36px;}
+.zc_ul2{ margin:0 0 0 175px}
+.tk{ font-size:14px; color:#666; margin-top:10px;}
+.text_3{ width:370px; height:160px; margin-top:10px; line-height:18px;}
+.ts{ float:left; display:inline; position: relative; top:-11px;}
+.ts_bg{ display:block; background:url(http://icon.zol.com.cn/service/images1/ts_bg.jpg) repeat-x; padding-right:10px; height:44px; color:red; font-size:12px; line-height:44px; padding-left:5px; float:left; display:inline;}
+.tsbg1{ float:left; display:inline;}
+.tsbg2{ float:left; display:inline;}
+.d_bg{ background:url(http://icon.zol.com.cn/service/images1/d_bg.gif) no-repeat; display:block; width:17px; height:13px; float:left; display: inline;}
+.dlm{ display: block; width:295px; _width:300px; float:left; display:inline;}
+.csrq{ display: block; width:380px; float:left; display:inline;}
+.szdc{display: block; width:450px; float:left; display:inline;}
+.d_bg{ margin-top:5px;}
+.xb_li {line-height:24px;}

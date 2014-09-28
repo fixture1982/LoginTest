@@ -1,0 +1,109 @@
+/********** global **********/
+*{
+	font-size:12px; font-family:Tahoma, Verdana, Arial, Helvetica, sans-serif;
+}
+body{
+	margin:0; padding:0; background:white; text-align:center;
+}
+img{
+	border:0;
+}
+a:link,a:visited,a:active{
+	text-decoration:none;
+}
+a:hover{
+	text-decoration:underline;
+}
+a{
+	color:#0b6ac8;
+}
+a.a_Underline:link,a.a_Underline:visited,a.a_Underline:active{
+	text-decoration:underline;
+}
+a.a_Underline:hover{
+	text-decoration:none;
+}
+form{
+	margin:0; padding:0;
+}
+em{
+	font-style:normal;
+}
+.clearer{
+	clear:both; display:block; font-size:1px; line-height:1px; height:0; margin:0; padding:0;
+}
+/********** header **********/
+.header{
+	width:750px; margin:0 auto;
+}
+.header .imqq{
+	float:left; margin-top:4px;
+}
+.navLinks{
+	float:right; padding-top:44px;
+}
+.navLinks span{
+	color:#dadada; padding:0 12px;
+}
+.insideNav{
+	width:100%; height:37px; clear:both; background:url(/images/public/header-bg.gif) repeat-x;
+}
+.insideNav .padder{
+width:750px; margin:0 auto; padding-top:7px; text-align:left; height:30px; background:url(/images/public/header-bg.gif) repeat-x;
+/*	width:750px; margin:0 auto; padding-top:7px; text-align:left; */
+}
+.insideNav .padder a{
+	line-height:30px; color:#174f99; padding:0 24px; float:left;
+}
+.insideNav .padder a.active{
+	background:#b9e2fe; font-weight:bold;
+}
+.insideNav .padder span{
+	color:#83beea; float:left; line-height:30px;
+}
+/********** footer **********/
+.footer{
+	border-top:1px #e0e8f3 solid; background:#f6fbff; height:32px; width:100%;
+}
+.footer .padder{
+	width:750px; margin:0 auto; line-height:32px; color:#404348;
+}
+.footer .padder span{
+	float:left; font-size:10px; font-weight:bold; font-family:Verdana, Arial, Helvetica, sans-serif;
+}
+.footer .padder a{
+	float:right; color:#404348;
+}
+/********** other **********/
+.errorClew{
+	background:url(/images/public/problem.gif) white no-repeat left 8px; padding-left:10px; text-align:left; color:red; width:190px; display:none;
+}
+.otherClew{
+	background:url(/images/public/clew.gif) white no-repeat left 3px; padding-left:10px; text-align:left; color:#7c7c7c; width:190px; position:absolute; display:none;
+}
+.otherClew .password{
+	padding-bottom:10px; width:120px;
+}
+.otherClew .rankLow{
+	background:url(/images/public/pw-rank.gif) no-repeat left bottom;
+}
+.otherClew .rankMiddle{
+	background:url(/images/public/pw-rank.gif) no-repeat -128px bottom;
+}
+.otherClew .rankHigh{
+	background:url(/images/public/pw-rank.gif) no-repeat -256px bottom;
+}
+
+
+/** loader **/
+.loading-indicator{background:url(/images/loading.gif) no-repeat center left; padding-left:20px; zoom:1; padding-bottom:10px; padding-top:10px; text-align:left;}
+#loading{position:absolute; left:45%; top:40%; border:3px solid #B2D0F7; background:white url(/images/block-bg.gif) repeat-x; padding:0 10px; color:#003366; zoom:1, text-align:left; width:160px; white-space:nowrap;}
+
+/** cover **/
+#cover-layer{
+	filter:alpha(opacity=50); -moz-opacity:0.5; width:expression(documentElement.clientWidth); height:expression(documentElement.clientHeight); background:black; position:absolute; z-index:10; left:0; top:0; display:none;
+}
+
+.bg_mask{
+	display:none; background:#000000; position:absolute; z-index:1000; width:100%; height:100%; left:0; top:0; opacity:0.4; filter: alpha(opacity=40);
+}

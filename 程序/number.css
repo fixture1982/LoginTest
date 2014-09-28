@@ -1,0 +1,293 @@
+@charset "utf-8";
+@import url("all-global.css");
+/********** step1 **********/
+.steps{
+	width:750px; margin:0 auto; line-height:34px; text-align:right;
+}
+.steps span{
+	padding-left:22px; margin-right:14px; display:inline-block;
+}
+.steps span.step1_active{
+	background:url(/images/public/step-number.gif) no-repeat left 8px; font-weight:bold;
+}
+.steps span.step1{
+	background:url(/images/public/step-number.gif) no-repeat left -22px; color:#7d7d7d;
+}
+.steps span.step2_active{
+	background:url(/images/public/step-number.gif) no-repeat left -52px; font-weight:bold;
+}
+.steps span.step2{
+	background:url(/images/public/step-number.gif) no-repeat left -82px; color:#7d7d7d;
+}
+.stepSplit{
+	width:750px; margin:0 auto; border-top:1px #a5d7f8 solid; height:14px; background:#f3fbfe; text-align:left; 
+}
+.stepSplit2{
+	width:750px; margin-left:200px; margin-top:10px; text-align:left; 
+}
+.accountType{
+	width:750px; margin:0 auto; padding:16px 0;
+}
+.accountType input,.accountType label{
+	font-size:14px;
+}
+
+.main .btnArea{
+	clear:left; padding:0 0 100px 228px; text-align:left;
+}
+.main .btnArea a{
+	float:left; clear:both;
+}
+.main .btnArea a.btn{
+	background:url(/images/number/step1-btn-r.gif) no-repeat right top; height:26px; line-height:26px; color:black; margin:20px 0 20px 0;
+}
+.main .btnArea a.btn:hover{
+	text-decoration:none;
+}
+.main .btnArea a.btn span{
+	background:url(/images/number/step1-btn-l.gif) no-repeat left top; padding:0 15px; display:block;
+}
+.main .btnArea a.btn strong{
+	font-size:14px; padding-right:10px;
+}
+/********** step2 **********/
+.accountInfo{
+	width:750px; margin:0 auto;
+}
+.accountInfo .border{
+	border:1px #cae1ff solid; padding:24px 0 0 0;
+}
+.accountInfo .choiceIdClew{
+	background:url(/images/number/step2-choice-id.gif) no-repeat 0 0; height:33px; line-height:33px; font-size:14px; width:490px; margin:0 auto; text-align:right;
+}
+.accountInfo .choiceIdArea a:link,.accountInfo .choiceIdArea a:visited,.accountInfo .choiceIdArea a:active{
+	width:143px; height:51px; display:inline-block; font-size:20px; line-height:51px; margin:0 5px;
+}
+.accountInfo .choiceIdArea{
+	padding:24px 0;
+}
+.accountInfo .choiceIdArea a:hover{
+	background:url(/images/number/step2-choice-border.gif); text-decoration:none;
+}
+.accountInfo .account{
+	text-align:left; width:530px; margin:0 auto; background:url(/images/number/step2-success.gif) no-repeat left top; height:38px; padding-left:50px; line-height:30px; font-size:14px; margin-bottom:10px;
+}
+.accountInfo .account .number{
+	font-size:24px; font-weight:bold; color:red; font-family:Arial, Helvetica, sans-serif;
+}
+.accountInfo .account .clew{
+	font-size:14px; font-weight:bold; color:red; padding-left:10px;
+}
+.accountInfo .getProtect{
+	width:140px; display:block; line-height:27px; background:url(/images/number/step2-btn01-r.gif) no-repeat right top; margin:0 auto;
+}
+.accountInfo .getProtect span{
+	font-size:14px; font-weight:bold; display:block; background:url(/images/number/step2-btn01-l.gif) no-repeat left top;
+}
+.accountInfo .accountOtherLinks{
+	padding:14px 0 24px 0;
+}
+.accountInfo .accountOtherLinks a{
+	margin:0 10px; zoom:1; line-height:20px; display:inline-block; height:22px;
+}
+.accountInfo .accountOtherLinks a.webqq{
+	background:url(/images/number/step2-webqq.gif) no-repeat 0 0; width:120px; height:22px; display:inline-block; text-decoration:none; color:#ffffff; text-align:left; line-height:20px;
+}
+.accountInfo .accountOtherLinks a.webqq span{
+	padding-left:10px;
+}
+.commend{
+	margin:3px; background:#ecf3f9; padding:10px 0; display:none;
+}
+.commend a{
+	padding-right:15px;
+}
+.commend p{
+	margin:0; padding:0; line-height:24px;
+}
+.ourService{text-align:left; width:750px; margin:0 auto; margin-top:15px; margin-bottom:15px;}
+.ourService h2{padding:0; margin:0; text-align:left; background:url(/images/number/service/03-ele-square.gif) no-repeat 4px 7px; padding-left:12px; line-height:24px; margin-bottom:5px;}
+.ourService p{padding:0; margin:0; margin-left:24px; line-height:24px;}
+.otherService{margin-left:24px; margin-top:10px;}
+.verify-hint{margin-top:10px; line-height:24px; color:#999999; }
+.verify-hint a{margin-right:20px; zoom:1;}
+.verify-btn{background:url(/images/number/service/btn-bg.gif); width:100px; height:26px; line-height:26px; color:black; text-decoration:none; text-align:center; font-weight:bold; zoom:1;}
+*:lang(en) .verify-btn{padding:6px 11px;}
+.act-commend{background:#EEEEEE; padding-top:7px; padding-bottom:5px;}
+*:lang(en) .act-commend{padding-bottom:7px !important;}
+.act-commend ul{margin:0; padding:0 7px;}
+.act-commend ul.bottom{padding-top:7px;}
+.act-commend ul li{margin:0; padding:0; list-style:none; float:left; width:235px; margin-right:15px;}
+.act-commend ul li.lastone{margin-right:0;}
+.act-commend ul li a{display:block; width:235px; text-decoration:none;}
+.act-commend ul li a:hover{text-decoration:none; color:red;}
+.act-commend ul li a img{border:5px white solid;}
+.act-commend ul li a span{display:block; line-height:18px; padding:3px 7px 0 7px; background:white; height:60px; cursor:pointer;}
+.act-commend ul li a span strong{display:block; color:#FE0201;}
+.act-commend ul li a span em{font-size:11px;}
+.more-service{clear:both;}
+.more-service .top{padding-top:4px;}
+.more-service .bottom{padding:0 0 4px 0;}
+.more-service h5{padding:0; margin:0; line-height:40px; border-bottom:2px #D4D4D4 solid; background:url(/images/number/service/03-ele-square.gif) no-repeat 4px 15px; padding-left:11px;}
+.more-service ul,.more-service li,.more-service p{padding:0; margin:0;}
+.more-service li{list-style:none; color:#808080; height:102px; background:url(/images/number/service/03-line.gif) repeat-x bottom;}
+.more-service li.lastone{background:none;}
+.more-service p{line-height:20px; padding-right:10px;}
+.more-service p strong{display:block; padding-top:10px;}
+.more-service a:link,.more-service a:visited,.more-service a:active{text-decoration:none;}
+.more-service a:hover{text-decoration:underline;}
+.more-service p.music{background:url(/images/number/service/03-serlst-music.gif) no-repeat 8px center; padding-left:76px; height:102px;}
+.more-service p.paipai{background:url(/images/number/service/03-serlst-paipai.gif) no-repeat 0px center; padding-left:76px; height:102px;}
+.more-service p.mobile{background:url(/images/number/service/03-serlst-mobile.gif) no-repeat 8px center; padding-left:76px; height:102px;}
+.more-service p.tv{background:url(/images/number/service/03-serlst-qqtv.gif) no-repeat 8px center; padding-left:76px; height:102px;}
+.padder-one{padding:10px 0 0 0; clear:both;}
+
+
+/********** modalWindow **********/
+.modalWindow{
+	left:32%;  top:40%; width:367px; height:158px; border:1px #83bee9 solid; background:white; position:absolute; display:none;
+}
+.modalWindow .innerBorder{
+	border:1px #cae1ff solid; border-top:1px #d5eeff solid; height:156px;
+}
+.modalWindow .title{
+	height:22px; background:#b9e2ff;
+}
+.modalWindow .title span{
+	float:left; line-height:20px; color:#0b66a6; font-weight:bold; padding-left:8px;
+}
+.modalWindow .title a{
+	float:right; margin:3px 5px 0 0;
+}
+.modalWindow .inputArea{
+	display:none;
+}
+.modalWindow .inputArea .padder{
+	padding-top:40px;
+}
+.modalWindow .inputArea .padder span{
+	padding-right:5px;
+}
+.modalWindow .inputArea .padder input{
+	width:260px;
+}
+.modalWindow .inputArea .btnArea{
+	float:right; padding:20px 22px 0 0;
+}
+.modalWindow .inputArea .btnArea a,.modalWindow .sendResult .btnArea a{
+	background:url(/images/number/step2-btn02.gif); width:63px; height:22px; line-height:22px;
+}
+.modalWindow .inputArea .btnArea a:hover,.modalWindow .sendResult .btnArea a:hover{
+	text-decoration:none;
+}
+.modalWindow .inputArea .btnArea a{
+	margin-right:10px; float:left; 
+}
+.modalWindow .sendResult{
+	padding-top:30px; display:none;
+}
+.modalWindow .sendResult .success,.modalWindow .sendResult .error{
+	height:38px; padding-left:50px; width:210px; font-size:14px; font-weight:bold; line-height:35px; margin:0 auto; text-align:left; display:none;
+}
+.modalWindow .sendResult .success{
+	background:url(/images/number/step2-sendmail-success.gif) no-repeat left top; 
+}
+.modalWindow .sendResult .error{
+	background:url(/images/number/step2-error2.gif) no-repeat left top;
+}
+.modalWindow .sendResult .btnArea{
+	padding-top:20px;
+}
+.modalWindow .sendResult .btnArea a{
+	display:block; margin:0 auto;
+}
+/********** survey **********/
+html
+{
+	background:url(nothing.txt) white fixed;  /*prevent screen flash in IE6 */
+}
+.survey{
+	position:fixed; width:289px; height:112px; border:1px #83bee8 solid; right:0; bottom:0; background:white; _position: absolute; _top:expression( documentElement.scrollTop + documentElement.clientHeight-this.offsetHeight ); _left:expression( documentElement.scrollLeft + documentElement.clientWidth-this.offsetWidth );
+}
+.survey .padder{
+	padding:12px 10px;
+}
+.survey .hint{
+	text-align:left; padding-left:39px; background:url(/images/public/info.gif) no-repeat 0 7px; line-height:38px; font-size:14px;
+}
+.survey .btnArea{
+	padding-top:15px;
+}
+.survey .btnArea a{
+	display:inline-block; background:url(/images/public/btn.gif); width:90px; height:27px; line-height:27px; font-size:14px; margin:0 3px;
+}
+/********** serviceList **********/
+.serviceList{
+	text-align:left; width:750px; margin:0 auto;
+}
+.serviceList .title{
+	border:1px #B9E2FF solid; background:#ffffff; padding:1px;
+}
+.serviceList .title .padder{
+	background:url(/images/number/service2/title_square.gif) #F3FAFE no-repeat 10px 7px; font-size:14px; font-weight:bold; line-height:27px; color:#154F96; padding-left:21px; 
+}
+.serviceList .row{
+	background:url(/images/number/service2/line.gif) repeat-x 0 bottom; clear:both; padding:0; height:135px;
+}
+.serviceList .row .cell{
+	float:left; margin-right:39px; width:157px; padding-left:65px; background-repeat:no-repeat; background-position:0 bottom; padding-top:26px;
+}
+.serviceList .row .cellExpand{
+	margin-right:0;
+}
+.serviceList .row .cellPic01{
+	background-image:url(/images/number/service2/service_01.gif);
+}
+.serviceList .row .cellPic02{
+	background-image:url(/images/number/service2/service_02.gif);
+}
+.serviceList .row .cellPic03{
+	background-image:url(/images/number/service2/service_03.gif);
+}
+.serviceList .row .cellPic04{
+	background-image:url(/images/number/service2/service_04.gif);
+}
+.serviceList .row .cellPic05{
+	background-image:url(/images/number/service2/service_05.gif);
+}
+.serviceList .row .cellPic06{
+	background-image:url(/images/number/service2/service_06.gif);
+}
+.serviceList .row .cellPic07{
+	background-image:url(/images/number/service2/service_07.gif);
+}
+.serviceList .row .cellPic08{
+	background-image:url(/images/number/service2/service_08.gif);
+}
+.serviceList .row .cellPic09{
+	background-image:url(/images/number/service2/service_09.gif);
+}
+.serviceList .row .cellPic10{
+	background-image:url(/images/number/service2/service_10.gif);
+}
+.serviceList .row .cellPic11{
+	background-image:url(/images/number/service2/service_11.gif);
+}
+.serviceList .row .cellPic12{
+	background-image:url(/images/number/service2/service_13.gif);
+}
+.serviceList .row .cell h3{
+	font-size:14px; font-weight:bold; color:#4E4D4E; margin:0; padding:0;
+}
+.serviceList .row .cell p{
+	margin:0; padding:0 0 10px 0; line-height:16px;
+}
+.serviceList .row .cell a.button{
+	background:url(/images/number/service2/btn_left.gif) no-repeat 0 0; line-height:23px; display:inline-block; text-decoration:none;
+}
+.serviceList .row .cell a.button span{
+	background:url(/images/number/service2/btn_right.gif) no-repeat right 0; line-height:20px; height:23px; padding:0 9px; display:inline-block; cursor:pointer;
+}
+.clearer{
+	margin:0; padding:0; font-size:1px; font-height:1px; height:0; display:block; clear:both;
+}

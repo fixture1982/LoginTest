@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+    <siteMapNode url="~/jianli_xiangdao.aspx" title="首页"  description="首页描述">
+        <siteMapNode url="~/Login.aspx" title="频道1"  description="频道1描述" />
+        <siteMapNode url="~/daohang_url.aspx" title="频道2"  description="频道2描述" />
+    </siteMapNode>
+</siteMap>

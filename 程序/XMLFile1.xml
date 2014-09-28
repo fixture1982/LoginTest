@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Advertisements>
+  <Ad>
+    <ImageUrl>baidu_logo.gif</ImageUrl>
+    <NavigateUrl>http://www.163.com/</NavigateUrl>
+    <AlternateText>链接到网易主页</AlternateText>
+    <Keyword>网易</Keyword>
+    <Impressions>25</Impressions>
+  </Ad>
+  <Ad>
+    <ImageUrl>logo_china_yasha.gif</ImageUrl>
+    <NavigateUrl>http://www.163.com/</NavigateUrl>
+    <AlternateText>链接到网易主页</AlternateText>
+    <Keyword>网易</Keyword>
+    <Impressions>25</Impressions>
+  </Ad>
+  <Ad>
+    <ImageUrl>logo_v1.gif</ImageUrl>
+    <NavigateUrl>http://www.163.com/</NavigateUrl>
+    <AlternateText>链接到网易主页</AlternateText>
+    <Keyword>网易</Keyword>
+    <Impressions>25</Impressions>
+  </Ad>
+</Advertisements>
+

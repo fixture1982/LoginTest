@@ -1,0 +1,295 @@
+﻿<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{11492BD0-B63E-413E-88D6-E63D5679249B}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>程序</RootNamespace>
+    <AssemblyName>程序</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web.Extensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Login.aspx" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DaoHang.ascx.cs">
+      <DependentUpon>DaoHang.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DaoHang.ascx.designer.cs">
+      <DependentUpon>DaoHang.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="daohang.aspx.cs">
+      <DependentUpon>daohang.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="daohang.aspx.designer.cs">
+      <DependentUpon>daohang.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="daohang_url.aspx.cs">
+      <DependentUpon>daohang_url.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="daohang_url.aspx.designer.cs">
+      <DependentUpon>daohang_url.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="fileup.aspx.cs">
+      <DependentUpon>fileup.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="fileup.aspx.designer.cs">
+      <DependentUpon>fileup.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Form_zhuce.aspx.cs">
+      <DependentUpon>Form_zhuce.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Form_zhuce.aspx.designer.cs">
+      <DependentUpon>Form_zhuce.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Handler1.ashx.cs">
+      <DependentUpon>Handler1.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="jianli.aspx.cs">
+      <DependentUpon>jianli.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="jianli.aspx.designer.cs">
+      <DependentUpon>jianli.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="jianli_xiangdao.aspx.cs">
+      <DependentUpon>jianli_xiangdao.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="jianli_xiangdao.aspx.designer.cs">
+      <DependentUpon>jianli_xiangdao.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="JieRi_TiShi.aspx.cs">
+      <DependentUpon>JieRi_TiShi.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="JieRi_TiShi.aspx.designer.cs">
+      <DependentUpon>JieRi_TiShi.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="login.ascx.cs">
+      <DependentUpon>login.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="login.ascx.designer.cs">
+      <DependentUpon>login.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="login.cs" />
+    <Compile Include="loginpage.aspx.cs">
+      <DependentUpon>loginpage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="loginpage.aspx.designer.cs">
+      <DependentUpon>loginpage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Random_Ads.aspx.cs">
+      <DependentUpon>Random_Ads.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Random_Ads.aspx.designer.cs">
+      <DependentUpon>Random_Ads.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ThemePage.aspx.cs">
+      <DependentUpon>ThemePage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ThemePage.aspx.designer.cs">
+      <DependentUpon>ThemePage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="treeview.aspx.cs">
+      <DependentUpon>treeview.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="treeview.aspx.designer.cs">
+      <DependentUpon>treeview.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm1.aspx.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm1.aspx.designer.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm2.aspx.cs">
+      <DependentUpon>WebForm2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm2.aspx.designer.cs">
+      <DependentUpon>WebForm2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="zhuce.aspx.cs">
+      <DependentUpon>zhuce.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="zhuce.aspx.designer.cs">
+      <DependentUpon>zhuce.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_Themes\Blue\Blue.skin" />
+    <Content Include="App_Themes\Blue\Blue.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="a.js" />
+    <Content Include="ajax.js" />
+    <Content Include="all-global.css" />
+    <Content Include="App_Themes\Gray\Gray.skin" />
+    <Content Include="App_Themes\Gray\Gray.css" />
+    <Content Include="baidu_logo.gif" />
+    <Content Include="DaoHang.ascx" />
+    <Content Include="daohang.aspx" />
+    <Content Include="daohang_url.aspx" />
+    <Content Include="expotclogo.png" />
+    <Content Include="fileup.aspx" />
+    <Content Include="fileup.css" />
+    <Content Include="Form_zhuce.aspx" />
+    <Content Include="g.js" />
+    <Content Include="GlobalProvinces.js" />
+    <Content Include="images\header.gif" />
+    <Content Include="images\tree3.jpg" />
+    <Content Include="jianli.aspx" />
+    <Content Include="jianli_xiangdao.aspx" />
+    <Content Include="JieRi_TiShi.aspx" />
+    <Content Include="logo.gif" />
+    <Content Include="logo_china_yasha.gif" />
+    <Content Include="logo_v1.gif" />
+    <Content Include="number.css" />
+    <Content Include="Random_Ads.aspx" />
+    <Content Include="reg.css" />
+    <Content Include="style.css" />
+    <Content Include="treeview.aspx" />
+    <Content Include="WebForm1.aspx" />
+    <Content Include="WebForm2.aspx" />
+    <Content Include="XMLFile1.xml" />
+    <Content Include="zhuce.aspx" />
+    <Content Include="网站后台登录_files\admin_login.jpg" />
+    <Content Include="网站后台登录_files\login001.jpg" />
+    <Content Include="网站后台登录_files\login002.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="chr_logo_news.gif" />
+    <Content Include="login.ascx" />
+    <Content Include="loginpage.aspx" />
+    <Content Include="ThemePage.aspx" />
+    <Content Include="Web.sitemap" />
+    <Content Include="Handler1.ashx" />
+    <Content Include="河南专任教师达110万人 特别的爱给特别的你-大河网_files\100462527.jpg" />
+    <Content Include="河南专任教师达110万人 特别的爱给特别的你-大河网_files\100462529.jpg" />
+    <Content Include="河南专任教师达110万人 特别的爱给特别的你-大河网_files\100462531.jpg" />
+    <Content Include="河南专任教师达110万人 特别的爱给特别的你-大河网_files\100462533.jpg" />
+    <Content Include="河南专任教师达110万人 特别的爱给特别的你-大河网_files\100462534.jpg" />
+    <Content Include="河南专任教师达110万人 特别的爱给特别的你-大河网_files\100462535.jpg" />
+    <Content Include="河南专任教师达110万人 特别的爱给特别的你-大河网_files\6_index_info_gongshang.gif" />
+    <Content Include="河南专任教师达110万人 特别的爱给特别的你-大河网_files\6_index_info_icp.gif" />
+    <Content Include="河南专任教师达110万人 特别的爱给特别的你-大河网_files\6_index_info_jt.gif" />
+    <Content Include="河南专任教师达110万人 特别的爱给特别的你-大河网_files\6_index_info_net.gif" />
+    <Content Include="河南专任教师达110万人 特别的爱给特别的你-大河网_files\con_icon01.gif" />
+    <Content Include="河南专任教师达110万人 特别的爱给特别的你-大河网_files\c_con.css" />
+    <Content Include="河南专任教师达110万人 特别的爱给特别的你-大河网_files\c_include.css" />
+    <Content Include="河南专任教师达110万人 特别的爱给特别的你-大河网_files\c_reset.css" />
+    <Content Include="河南专任教师达110万人 特别的爱给特别的你-大河网_files\index-ilist.htm" />
+    <Content Include="河南专任教师达110万人 特别的爱给特别的你-大河网_files\index-ilist_files\100425282.jpg" />
+    <Content Include="河南专任教师达110万人 特别的爱给特别的你-大河网_files\index-ilist_files\100428983.jpg" />
+    <Content Include="河南专任教师达110万人 特别的爱给特别的你-大河网_files\index-ilist_files\100453110.jpg" />
+    <Content Include="河南专任教师达110万人 特别的爱给特别的你-大河网_files\index-ilist_files\100453112.jpg" />
+    <Content Include="河南专任教师达110万人 特别的爱给特别的你-大河网_files\index-ilist_files\100461381.jpg" />
+    <Content Include="河南专任教师达110万人 特别的爱给特别的你-大河网_files\index-ilist_files\100462150.jpg" />
+    <Content Include="河南专任教师达110万人 特别的爱给特别的你-大河网_files\index-ilist_files\100462395.jpg" />
+    <Content Include="河南专任教师达110万人 特别的爱给特别的你-大河网_files\index-ilist_files\100462629.jpg" />
+    <Content Include="河南专任教师达110万人 特别的爱给特别的你-大河网_files\index-ilist_files\c_con.css" />
+    <Content Include="河南专任教师达110万人 特别的爱给特别的你-大河网_files\index-ilist_files\c_include.css" />
+    <Content Include="河南专任教师达110万人 特别的爱给特别的你-大河网_files\index-ilist_files\c_reset.css" />
+    <Content Include="河南专任教师达110万人 特别的爱给特别的你-大河网_files\index_logo.gif" />
+    <Content Include="河南专任教师达110万人 特别的爱给特别的你-大河网_files\js_include.js" />
+    <None Include="网站后台登录_files\Thumbs.db" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="up\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v9.0\WebApplications\Microsoft.WebApplication.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>1227</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>
